@@ -1,0 +1,9 @@
+{
+  "domain": "proxmoxve-w4systems",
+  "name": "Proxmox VE w4systems",
+  "documentation": "https://github.com/w4systems/Proxmox-Integartion",
+  "codeowners": ["@w4systems"],
+  "requirements": ["proxmoxer==1.3.0"],
+  "iot_class": "local_polling",
+  "loggers": ["proxmoxer"]
+}
